@@ -1,191 +1,71 @@
-# Real-Time Traffic Density Estimation using YOLO11
-
-**An advanced computer vision solution for real-time vehicle detection and dual-lane traffic density estimation using YOLO11 Nano and OpenCV.**
-
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![YOLO11](https://img.shields.io/badge/YOLO11-Nano-00FFFF)](https://docs.ultralytics.com/)
-[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org/)
-[![ONNX](https://img.shields.io/badge/ONNX-Export-005CED?logo=onnx&logoColor=white)](https://onnx.ai/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-### 🔗 [**View the Live Interactive Dashboard →**](https://alinaderiii.github.io/Real-Time-traffic-density-estimation/)
-
-<img width="1920" height="1080" alt="sample_image" src="https://github.com/user-attachments/assets/87bd5639-44fa-4e3d-b86d-136b27fa01e0" />
-
+# Ali Naderi
+**AI Research Engineer | Data Scientist | M.Sc. Mechatronics Engineering**
+Physics-informed deep learning, signal processing, computer vision, and industrial condition monitoring.
+[![Portfolio](https://img.shields.io/badge/Portfolio-alinaderiii.github.io-E85D4A?style=flat-square&logo=googlechrome&logoColor=white)](https://alinaderiii.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alinaderi-data-scientist)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/alinaderi1)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?style=flat-square&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Ali-Naderi-21)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-8166-5449)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:alinaderi119@gmail.com)
 ---
-
-## 🌟 Features
-
-- **State-of-the-art Vehicle Detection** with **YOLO11 Nano**
-- **Real-time Traffic Intensity Analysis** (Smooth / Heavy)
-- **Dual-lane ROI-based Counting** using OpenCV polygon regions
-- **High Accuracy**: 97.4% mAP50 | 94.7% Recall | 91.2% Precision
-- **ONNX Export** ready for deployment (C++ / OpenCV)
-- **Interactive Dashboard** showcasing results, metrics, and video inference
-- **Comprehensive EDA** and training visualization
-
+## About
+I build intelligent systems that turn raw physical signals into decisions engineers can act on.
+My background in **Mechatronics Engineering** shapes how I approach machine learning: rather than treating models as black boxes, I embed physical domain knowledge directly into the architecture. This produces systems that are interpretable, robust under noise, and deployable on real hardware.
+- **Research focus:** physics-informed deep learning, intelligent fault diagnosis, medical image analysis
+- **Experience:** ~7 years developing and deploying AI, data science pipelines, and analysis frameworks
+- **Location:** Dublin, Ireland - open to research collaborations and engineering challenges
+- **Published** in Complexity (Wiley), with a second manuscript under review
 ---
-
-## 📊 Project Overview
-
-This project implements an end-to-end pipeline for estimating traffic density from top-view highway camera feeds. The system detects vehicles using a custom-trained **YOLO11** model and classifies them into left and right lanes using predefined polygonal regions of interest (ROI).
-
-**Key Achievements:**
-
-- Successful migration from YOLOv8 to **YOLO11**
-- Training completed in ~30 minutes on GTX 1650 with CUDA
-- Robust handling of Windows Unicode paths
-- Clean dataset with zero annotation errors
-
+## Publications
+### Convolutional Neural Network and Channel Attention Mechanism for Multiclass Brain Tumor Classification
+**Complexity (Wiley)**, Volume 2025. Open Access. Published 30 June 2025.
+Naderi, A., Asgharzadeh-Bonab, A., Ahmadi, F., Kalbkhani, H.
+A CAD system combining a fine-tuned EfficientNetB7 backbone with a channel attention module for multiclass brain tumor classification from MRI. Achieves **98.16%** four-class accuracy and **99.4%** binary accuracy, validated with 5-fold stratified cross-validation and outperforming prior published approaches.
+[![DOI](https://img.shields.io/badge/DOI-10.1155%2Fcplx%2F1644859-blue?style=flat-square)](https://doi.org/10.1155/cplx/1644859)
+[![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github)](https://github.com/AliNaderiii/brain-tumor-classification-paper)
+### PhyQ-TransNet: Physics-Informed Deep Learning for Intelligent Fault Diagnosis
+*International Journal of Machine Tools and Manufacture* (Elsevier). **Manuscript submitted, under review.**
+A hybrid architecture pairing a physics-informed feature extractor with a Transformer encoder, mathematically aligned with classical signal demodulation. Validated across five international benchmarks (CWRU, SGST, IMS, Paderborn, NBS): **99.98%** accuracy, resilient at **-10 dB SNR**, **1.4M** parameters and **~8.5 ms** inference, edge-deployable.
 ---
-
-## 🛠️ Tech Stack
-
-| Component | Technology |
-|---|---|
-| Object Detection | YOLO11 Nano (Ultralytics) |
-| Computer Vision | OpenCV |
-| Training | PyTorch + CUDA |
-| Model Export | ONNX |
-| Visualization | Matplotlib, Seaborn |
-| Dashboard | HTML + CSS + JavaScript |
-| Notebooks | Jupyter Notebook |
-
+## Selected Projects
+| Project | Description | Links |
+|---|---|---|
+| **Brain Tumor Classification** | EfficientNetB7 + channel attention for MRI tumor classification. Published research. | [Repo](https://github.com/AliNaderiii/brain-tumor-classification-paper) / [DOI](https://doi.org/10.1155/cplx/1644859) |
+| **Traffic Density Estimation** | YOLO11 Nano + OpenCV ROI counting on dual-lane highway feeds. 97.4% mAP50, ONNX export. | [Repo](https://github.com/AliNaderiii/Real-Time-traffic-density-estimation) / [Live](https://alinaderiii.github.io/Real-Time-traffic-density-estimation/) |
+| **Heart Disease Prediction** | Clinical decision support pipeline on UCI Cleveland. Stacking ensembles, zero-leakage preprocessing. | [Repo](https://github.com/AliNaderiii/Heart-disease-prediction) / [Live](https://alinaderiii.github.io/Heart-disease-prediction/) |
+| **Rice Production Forecasting** | Hybrid SARIMAX + Random Forest residual model over 74 years of Sri Lankan data. R2 0.925, MAPE 5.12%. | [Repo](https://github.com/AliNaderiii/Rice-Production-Forecasting-SriLanka) / [Live](https://alinaderiii.github.io/Rice-Production-Forecasting-SriLanka/) |
+| **Smart Farming Analytics** | Precision agriculture yield modelling, including an honest statistical audit proving feature independence. | [Repo](https://github.com/AliNaderiii/Precision-Agriculture-Yield-Forecasting-Smart-Farming) / [Live](https://alinaderiii.github.io/Precision-Agriculture-Yield-Forecasting-Smart-Farming/) |
+| **WHO Health Intelligence** | Public health data engineering and BI platform over WHO Global Health Observatory indicators. | [Repo](https://github.com/AliNaderiii/who-health-intelligence) |
+| **ROGII Wellbore Geology** | Production-grade pipeline for automated lithology and wellbore geology prediction from drilling telemetry. | [Repo](https://github.com/AliNaderiii/ROGII_Wellbore_Geology_Prediction) |
 ---
-
-## 📈 Results
-
-| Metric | Score |
-|---|---|
-| **mAP50** | 97.4% |
-| **mAP50-95** | 72.4% |
-| **Precision** | 91.2% |
-| **Recall** | 94.7% |
-
-Strong performance even under shadows and glare.
-
-<img width="1680" height="1200" alt="eda_box_distributions" src="eda_box_distributions.png" />
-
+## Tech Stack
+**Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
+**Deep Learning and ML**
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+**Computer Vision and Signals**
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![YOLO11](https://img.shields.io/badge/YOLO11-00FFFF?style=flat-square)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
+**Data and Deployment**
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ---
-
-## 🧪 Dataset
-
-| Property | Value |
-|---|---|
-| Total Images | 626 (640×640) |
-| Train | 536 images (horizontal flip augmentation) |
-| Validation | 90 images |
-| Class | Vehicle (single class) |
-| Format | YOLOv8 label format |
-
+## Areas of Expertise
+- **Predictive maintenance:** fault diagnosis for rotating machinery under noise and variable load
+- **Medical imaging AI:** classification and CAD systems for clinical decision support
+- **Signal processing:** FFT, HHT, wavelets, time-frequency analysis, multi-sensor fusion
+- **Time-series forecasting:** SARIMAX, hybrid statistical and ML residual coupling
+- **Data engineering:** leakage-free pipelines, rigorous statistical validation
 ---
-
-## 📁 Project Structure
-
-```text
-Real-Time-traffic-density-estimation/
-├── index.html                              # Interactive dashboard (GitHub Pages)
-├── best.onnx                               # Exported model (ONNX)
-├── processed_sample_video.mp4              # Inference output video
-├── results.png                             # Training convergence curves
-├── confusion_matrix_normalized.png         # Normalized confusion matrix
-├── BoxPR_curve.png                         # Precision-Recall curve
-├── eda_box_distributions.png               # Bounding box distributions
-├── Traffic_Density_Advanced_Modeling.ipynb # Training + inference notebook
-├── Traffic_Density_Advanced_Modeling.html  # Rendered notebook
-├── Traffic_Density_Advanced_EDA.ipynb      # EDA notebook
-├── Traffic_Density_Advanced_EDA.html       # Rendered notebook
-├── data.yaml                               # YOLO dataset config
-├── README.dataset.txt                      # Dataset notes
-├── LICENSE
-└── README.md
-```
-
----
-
-## 🔧 How to Run
-
-**1. Clone the repository**
-
-```bash
-git clone https://github.com/AliNaderiii/Real-Time-traffic-density-estimation.git
-cd Real-Time-traffic-density-estimation
-```
-
-**2. View the dashboard**
-
-Open `index.html` in any browser, or visit the
-[live version](https://alinaderiii.github.io/Real-Time-traffic-density-estimation/).
-
-**3. Run inference with the exported ONNX model**
-
-```bash
-pip install ultralytics opencv-python
-```
-
-```python
-from ultralytics import YOLO
-
-model = YOLO("best.onnx")
-
-# Single image
-results = model.predict("your_image.jpg", conf=0.25)
-results[0].show()
-
-# Video file
-results = model.predict("your_video.mp4", stream=True, conf=0.25)
-for r in results:
-    print(f"Vehicles detected: {len(r.boxes)}")
-```
-
-**4. Lane classification logic**
-
-```python
-# Classify each detection against the lane separator (x = 609 px)
-lane_threshold = 609
-left_lane = right_lane = 0
-
-for box in r.boxes:
-    x_center = (box.xyxy[0][0] + box.xyxy[0][2]) / 2
-    if x_center < lane_threshold:
-        left_lane += 1
-    else:
-        right_lane += 1
-
-heavy_traffic_threshold = 10
-intensity = "Heavy" if (left_lane + right_lane) > heavy_traffic_threshold else "Smooth"
-```
-
----
-
-## 📌 Future Improvements
-
-- [ ] Multi-camera support
-- [ ] Speed estimation (km/h)
-- [ ] Web deployment (FastAPI + WebSocket)
-- [ ] Vehicle type classification (Car, Truck, Bus, etc.)
-- [ ] Edge deployment on NVIDIA Jetson
-
----
-
-## 👨‍💻 Author
-
-**Ali Naderi** — AI Engineer & Data Scientist
-Dublin, Ireland
-
-- 🌐 Portfolio: [alinaderiii.github.io](https://alinaderiii.github.io/)
-- 📊 Live dashboard: [Traffic Density Estimation](https://alinaderiii.github.io/Real-Time-traffic-density-estimation/)
-- 💼 LinkedIn: [alinaderi-data-scientist](https://www.linkedin.com/in/alinaderi-data-scientist)
-- 🐙 GitHub: [@AliNaderiii](https://github.com/AliNaderiii)
-- 📈 Kaggle: [alinaderi1](https://www.kaggle.com/alinaderi1)
-- 📧 alinaderi119@gmail.com
-
----
-
-## 📄 License
-
-Released under the [MIT License](LICENSE). Free to use for educational and portfolio purposes.
-
----
-
-<sub>Made with ❤️ using YOLO11</sub>
+Open to research collaborations, industrial AI projects, and conversations about intelligent systems.
+Reach me at [alinaderi119@gmail.com](mailto:alinaderi119@gmail.com)
