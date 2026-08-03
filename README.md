@@ -24,6 +24,7 @@ Fine-tuned EfficientNetB7 with a channel attention module that amplifies clinica
 | Shahin et al. 2023 | MPCANet (PCANet + CNN) | 94.02% |
 | Demir and Akbulut 2022 | R-CNN + SVM | 96.60% |
 | **This work** | **EfficientNetB7 + CAM + FC** | **98.16%** |
+
 [![DOI](https://img.shields.io/badge/DOI-10.1155%2Fcplx%2F1644859-006699?style=flat-square)](https://doi.org/10.1155/cplx/1644859)
 [![Materials](https://img.shields.io/badge/Materials-181717?style=flat-square&logo=github)](https://github.com/AliNaderiii/brain-tumor-classification-paper)
 **PhyQ-TransNet: Physics-Informed Deep Learning for Intelligent Fault Diagnosis**
@@ -47,6 +48,7 @@ A physics-informed feature extractor coupled to a Transformer encoder, mathemati
 | **ROGII Wellbore Geology** | Lithology prediction from drilling telemetry | Well-group cross-validation isolation | [Repo](https://github.com/AliNaderiii/ROGII_Wellbore_Geology_Prediction) |
 | **Smart Farming Analytics** | Yield modelling with statistical signal audit | Proved feature independence | [Repo](https://github.com/AliNaderiii/Precision-Agriculture-Yield-Forecasting-Smart-Farming) - [Live](https://alinaderiii.github.io/Precision-Agriculture-Yield-Forecasting-Smart-Farming/) |
 | **Dream** | Local-first bilingual assistant with Persian-aware memory retrieval | NFKC normalisation, zero-dependency core | [Repo](https://github.com/AliNaderiii/Dream) |
+
 On the Smart Farming result: the dataset carried no predictive signal. Mutual information near zero, negative out-of-sample R2. I published the negative result and the overfitting curves rather than reporting a tuned score. Reporting what the data actually supports is part of the job.
 ## How I work
 **Validation discipline.** Chronological and group-wise splits, never random shuffles on temporal or clustered data. ColumnTransformer pipelines so scaling never sees the test fold. VIF and multicollinearity audits before inference.
