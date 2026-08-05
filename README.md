@@ -1,4 +1,4 @@
-                                                            # Ali Naderi 
+# Ali Naderi 
 **AI Researcher | Data Scientist & ML Engineer | M.Sc. Mechatronics Engineering | Physics-informed deep learning**
 # Physics-informed deep learning for industrial systems, medical imaging, and signal intelligence.
 
